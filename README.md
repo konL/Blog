@@ -1,3 +1,45 @@
+konHub是一个基于Vue+springboot前后端分离的个人博客系统，具有简单的用户管理功能，文章管理功能，使用Shiro和jwt进行权限管理，并支持Markdown编写。
+
+后端：
+
+数据管理：MybatisPlus实现与数据库的连接
+
+权限管理：jwt的生成与验证，使用jwt登录/注销
+
+校验管理：异常处理，实体校验，跨域问题
+
+接口管理：登录接口，博客接口
+
+前端：
+
+路由权限拦截模块：控制需登录后访问的页面，否则重定向到登录页面。
+
+登录页面：表单校验，token信息同步
+
+文章列表页面：文章分页
+
+文章详情页面：展示文章内容
+
+文章发表/编辑页面：发表文章直接进入markdown编辑器，编辑则回写数据后再进入markdown编辑器。
+
+后端：
+- 基本框架：SpringBoot
+
+-  数据层使用Mybatis Plus
+
+- 使用Jwt+Shiro实现权限管理
+
+- 缓存中间件使用Redis
+
+前端：
+
+- Vue框架：Vue2.6.11、Vue Router、Vuex、vue/cli4.5.12
+- UI框架：Element UI框架
+- 异步请求：axios
+
+
+
+
 Element-ui组件 ：https://element.eleme.cn/#/zh-CN/component/link
 
 # **运行准备**
