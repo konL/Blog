@@ -5,6 +5,8 @@ Element-ui组件 ：https://element.eleme.cn/#/zh-CN/component/link
 （1）开启redis：https://www.cnblogs.com/nanstar/p/13367747.html
 
 在redis文件夹下开启PowerShell,输入` ./redis-server.exe`
+停止（需要使用命令，否则会造成数据丢失）
+ `./redis-cli  shutdown`
 
 （2）开启后端服务器
 
